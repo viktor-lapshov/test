@@ -1,30 +1,28 @@
-/*jQuery('document').ready(function(){
+let money,
+    time;
 
+money = prompt("Ваш бюджет на месяц?");
+time = prompt ("Введите дату в формате YYYY-MM-DD");
 
-}); */
+let var1,var2;
+var1 = prompt("Введите обязательную статью расходов в этом месяце");
+var2 = prompt("Во сколько обойдется?");
+ let income;
+ let appData = {
+   money,
+   time,
+  
+  expenses: {
+  var1,
+  var2,
+  },
+  optionalExpenses: {
 
-//console.log(typeof(null));
-'use strict';
-a = 5;
-let incr = 10,
-    decr = 10;
-
-incr++;
-decr--;
-
-console.log(incr);
-console.log(decr);
-
-console.log(5%2);
-console.log("2" === 2);
-
-let isChecked = true,
-    isClose = false;
-
-console.log(isClose);
-
-
-
-
-
-
+   },
+   income,
+  savings:false 
+    
+  };
+    
+    let oneday = (money / 30);
+    alert (oneday);
